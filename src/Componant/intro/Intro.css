@@ -1,0 +1,38 @@
+#intro{
+    display: flex;
+}
+#intro .left{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-container{
+    width:500px;
+    height: 500px;
+}
+.img-container img{
+    width:100%;
+    border-radius: 50% 50% 5px 5px;
+}
+#intro .right{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 30px;
+    font-size: 1.5em;
+}
+#Hi{
+    font-size: 2em;
+    color: #15023A;
+}
+#intro h5{
+    font-size: 0.7em;
+}
+#intro ul{
+    list-style:circle;
+    padding-left: 30px;
+}
